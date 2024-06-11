@@ -42,7 +42,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 def send_email(log_content):
-    from_addr = ""
+    from_addr = "your_email@example.com"
     to_addr = "destination_email@example.com"
     msg = MIMEMultipart()
     msg['From'] = from_addr
